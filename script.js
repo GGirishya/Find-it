@@ -1,7 +1,7 @@
 // Remove span children.
 let spans= document.querySelectorAll(".box span");
 console.log(spans);
-for(let i=0; i<spans.length, i++){
+for(let i=0; i<spans.length; i++){
   spans[i].remove();
 }
 // Create an image element.
