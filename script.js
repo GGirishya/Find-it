@@ -5,7 +5,8 @@ for(let i=0; i<spans.length; i++){
   spans[i].remove();
 }
 // Create an image element.
-
+let image = document.createElement("img");
+image.setAttribute("src","placekitten.com/200/200");
 // Get a random box.
 
 // Make the new image element a child of the box.
