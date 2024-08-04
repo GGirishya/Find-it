@@ -8,5 +8,5 @@ for(let i=0; i<spans.length; i++){
 let image = document.createElement("img");
 image.setAttribute("src","placekitten.com/200/200");
 // Get a random box.
-
+let randomBox = document.querySelector("#box-1");
 // Make the new image element a child of the box.
